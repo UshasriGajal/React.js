@@ -1,0 +1,23 @@
+#root {
+  /* max-width: 1280px; */
+  margin: auto;
+  margin-top: 0%;
+  padding: 2rem;
+  text-align: center;
+}
+.AddBut{
+  height: 40px;
+  background-color: cadetblue;
+
+}
+.box{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin:10px ;
+}
+.gridBox{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    height: 70px;
+    background-color: rgb(36, 36, 88);
+}
+li{
+    /* border: 1px solid black; */
+    height: 60px;
+    margin-top: 10px;
+    /* text-align: center; */
+    list-style-type: none;
+    border-radius: 20px;
+    /* background-color: beige; */
+}
+.Link{
+    height: 50px;
+    width: 120px;
+    /* margin-top: 20px; */
+    text-decoration: none;
+    background-color: beige;
+}
+.side{
+    /* height: 40%; */
+    width: 40%;
+    background-color: rgb(178, 237, 217);
+    /* border: 2px solid black; */
+}

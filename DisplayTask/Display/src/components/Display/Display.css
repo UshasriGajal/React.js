@@ -1,0 +1,17 @@
+.display{
+    display: flex;
+    gap: 20rem;
+    /* background-color: ; */
+  }
+  .DisDiv{
+    height: 200px;
+    /* gap: 20rem; */
+    width: 300px;
+    margin-top: 10%;
+    background-color: rgb(126, 105, 240);
+    border-radius: 10px;
+  }
+  .external{
+    color: pink;
+  }
+  
