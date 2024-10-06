@@ -7,7 +7,8 @@ const useProducts = () =>{
         return data
     };
     const {isPending, isError, data, error} =useQuery({
-        queryKey: ['products'],queryFn :fetchProducts
+        queryKey: ['products'],
+        queryFn :fetchProducts
     });
     return {isPending, isError, data, error}
 }

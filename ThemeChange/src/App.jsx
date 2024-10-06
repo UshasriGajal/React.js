@@ -5,9 +5,12 @@ import { ThemeProvider } from './components/ThemeProvider'
 import UpdateChange from './components/UpdateChange'
 
 const App = () =>{
-  <ThemeProvider>
-    <ThemeChange />
-    {/* <UpdateChange/> */}
+  return(
+    <ThemeProvider>
+    {/* <ThemeChange /> */}
+    <UpdateChange/>
   </ThemeProvider>
+  )
+  
 }
 export default App

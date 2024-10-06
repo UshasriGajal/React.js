@@ -1,16 +1,15 @@
-import { useContext } from "react";
-import { UserContext } from "./ThemeProvider";
+import { useContext } from "react"
+import { UserContext } from "./ThemeProvider"
 
-const ThemeChange =() =>{
-    const toggleTheme = () => {
-        setColor((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
-      };
-    const {color} =useContext(UserContext)
-    return(
-        <div>
-            <button onClick={toggleTheme}> </button>
-        </div>
+
+const ThemeChange =()=>{
+    const {color}=useContext(UserContext)
+    return (
+        <>
+        {/* <h1 style={{color:color}}>Hloo</h1> */}
+        </>
     )
-
+        
+    
 }
 export default ThemeChange
