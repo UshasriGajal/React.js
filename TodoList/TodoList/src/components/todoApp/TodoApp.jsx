@@ -36,11 +36,14 @@ const TodoApp =()=>{
     
     return (
         <>
-            <h2>Todo List</h2>
+        <div className="main">
+        <h2>Just Do It 👍</h2>
             {/* <h3></h3> */}
-            <input type="text" value={input} placeholder="enter your text" onChange={(e) => setInput(e.target.value)}/>
-            <button onClick={addTodo}>Add Task</button>
+            <input type="text" value={input} placeholder="enter your task" onChange={(e) => setInput(e.target.value)}/>
+            <button onClick={addTodo}>Add Task✅</button>
             <TodoList tasks={tasks} deleteTodo={deleteTodo} toggleComplete={toggleComplete}/>
+        </div>
+            
         </>
         
     )
