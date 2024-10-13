@@ -24,7 +24,7 @@ const DisplayCountries = () => {
           //   </div>
 
 
-            <div className="countries" key={country.cca3}>
+            <div className={`countries ${theme}`} key={country.cca3}>
                 <img
               src={country.flags.png}
               alt={`${country.name.common} flag`}
